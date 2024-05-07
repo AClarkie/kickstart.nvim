@@ -151,6 +151,11 @@ require('lazy').setup({
   --  This is equivalent to:
   --    require('Comment').setup({})
 
+  {
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
+  },
+
   -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
